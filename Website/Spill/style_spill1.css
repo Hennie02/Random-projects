@@ -1,0 +1,17 @@
+body {
+  background-color: #f2d88f;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h1 {
+  color: #e36888;
+  text-align: center;
+}
+
+.infobox {
+  padding: 10px;
+  margin: 10px;
+  color: #e36888;
+}

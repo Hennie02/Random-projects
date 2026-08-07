@@ -1,0 +1,178 @@
+
+body {
+  background-color: #f08c21;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.infobox {
+  padding: 10px;
+  margin: 10px;
+  color: rgb(230, 227, 227);
+}
+
+/* Spill format */
+
+.spill {
+  --spill-bredde:100%; 
+  width: var(--spill-bredde);
+  border: 0;
+  margin: 0;
+}
+
+.spill-tekst {
+  padding: 10px;
+  margin: 5%;
+  color: rgb(230, 227, 227);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+
+/* Flex container for spill 1 elements */
+
+.flex-container1 {
+  background-color: #f2d88f;
+  display: flex;
+  gap: 0; 
+  align-items: flex-start; 
+}
+
+#image1 {
+  width:50%;
+  object-fit: cover;
+  flex-shrink: 0; 
+}
+
+#spill-1 {
+  color: #e36888;
+  width:  50%;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+#spill1_tekst {
+  color: #e36888;
+}
+
+
+/* Flex container for spill 2 elements */
+.flex-container2 {
+  background-color: #E36888;
+  display: flex;
+  gap: 0; 
+  align-items: flex-start; 
+}
+
+#image2 {
+  width: 50%;
+  object-fit: cover;
+  flex-shrink: 0; 
+}
+
+#spill-2 {
+  color: rgb(230, 227, 227);
+  width: 50%;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+
+/* Flex container for spill 3 elements */
+.flex-container3 {
+  background-color: #6698cc;  
+  display: flex;
+  gap: 0; 
+  align-items: flex-start; 
+}
+
+#image3 {
+  width: 50%;
+  object-fit: cover;
+  flex-shrink: 0; 
+}
+
+#spill-3 {
+  color: rgb(230, 227, 227);
+  width:  50%;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+/* Flex container for spill 4 elements */
+.flex-container4 {
+  background-color: #b4b534;
+  display: flex;
+  gap: 0; 
+  align-items: flex-start; 
+}
+
+#image4 {
+  width: 50%;
+  object-fit: cover;
+  flex-shrink: 0; 
+}
+
+#spill-4 {
+  color: rgb(230, 227, 227);
+  width: 50%;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+/* Flex container for spill 5 elements */
+.flex-container5 {
+  background-color: #f2d88f;  
+  display: flex;
+  gap: 0; 
+  align-items: flex-start; 
+}
+
+#image5 {
+  width: 50%;
+  object-fit: cover;
+  flex-shrink: 0; 
+}
+
+#spill-5 {
+  color: #e36888;
+  width:  50%;
+  text-align: center;
+  flex-grow: 1; 
+}
+
+#spill5_tekst {
+  color: #e36888;
+}
+
+/* Flex container for spill 6 elements */
+.flex-container6 {
+  background-color: #E36888;  
+  display: flex;
+  gap: 0; 
+  align-items: flex-start; 
+}
+
+#image6 {
+  width: 50%;
+  object-fit: cover;
+  flex-shrink: 0; 
+}
+
+#spill-6 {
+  color: rgb(230, 227, 227);
+  width:  50%;
+  text-align: center;
+  flex-grow: 1; 
+}
+
