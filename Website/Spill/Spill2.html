@@ -1,17 +1,43 @@
 <!DOCTYPE html>
 <html lang="no">
 <head>
-    <title>Spill 2</title>
-    <link rel="stylesheet" href="style_spill2.css">
+    <title>Flasketuten peker på</title>
+    <link rel="stylesheet" href="../styles/style_spill2.css">
 </head>
 <body>
 
-<h1> Spill 2!</h1>
+<a href="../index.html" class="home-btn">Tilbake</a>
+
+<h1> Flasketuten peker på!</h1>
 
 <div class="infobox">
-    <h2>Om spill 2</h2>
-    <p>Her er reglene til spill 2.</p>
+    <p>Alle kan vel flasketuten peker på?!</p>
 </div>
+
+<div class = "main">
+    <div class="container">
+        <!-- <p>Player 1</p>
+        <p>Player 2</p>
+        <p>Player 3</p>
+        <p>Player 4</p> -->
+        <img  
+            id = "whine-bottle"    
+            src="../images/winebottle.png" 
+            alt="bottle spinner" 
+            height="300px"
+        >
+    </div>
+    <button onclick="spinBottle()"> Click to Spin</button>
+</div>
+
+<div class ="spillvarianter">
+    <h2>Spillvarianter</h2>
+    <p>1. Finn fram 100 spørsmål, les spørsmålet og spinn om hvem som må svare.</p>
+    <p>2. La en i rommet bestemme et spørsmål de vil ha svar på. Den flasken peker på, må svare. High risk, high reward!</p>
+    <p>3. Landet flasken på deg? -> drikk!</p>
+    <p>4. Klassisk: Nødt eller sannhet, den som flasken peker på, må svare.</p>
+
+<script src="../scripts/spill2.js"></script>
 
 </body>
 </html>

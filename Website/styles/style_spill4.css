@@ -15,3 +15,16 @@ h1 {
   margin: 10px;
   color: rgb(230, 227, 227);
 }
+
+.home-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+  color: #e36888;
+  text-decoration: none;
+  background: #f2d88f;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}

@@ -38,6 +38,12 @@ h3 {
   font-size: 30px;
 }
 
+.pop {
+  transform: scale(1.1);
+  transition: transform 0.15s ease;
+}
+
+
 
 /* Flex container for spill 1 elements */
 

@@ -1,0 +1,116 @@
+* {
+  padding: 10px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+
+body {
+  background-color: #e36888;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-style: italic;
+  font-weight: 400;
+  min-height: 1200px;
+}
+
+h1 {
+  color: rgb(230, 227, 227);
+  text-align: center;
+}
+
+.home-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+  z-index: 1000;
+  color: white;
+  text-decoration: none;
+  background: #f08c21;
+  padding: 8px 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.infobox {
+  padding: 10px;
+  margin: 10px;
+  color: rgb(230, 227, 227);
+}
+
+.main {
+  width: 100%;
+  height: 600px;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  width: 500px;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: radial-gradient(circle,#e4b8c4,  #e36888 );
+  border-radius: 50%;
+}
+
+.container p {
+  position:absolute;
+  color: rgb(230, 227, 227);
+}
+
+.container p:nth-child(1) {
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container p:nth-child(2) {
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.container p:nth-child(3) {
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.container p:nth-child(4) {
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#whine-bottle {
+  transition: transform 2s ease-out;
+}
+
+button {
+  position: absolute;
+  height: 120px;
+  width: 120px;
+  background: transparent;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.spillvarianter {
+  position: absolute;
+  bottom: -300px;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgb(230, 227, 227);
+  background-color: #e0708e;
+  text-align: left;
+  padding: 20px;
+  line-height: 1.5;
+}
