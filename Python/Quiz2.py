@@ -1,0 +1,70 @@
+import random
+
+# 50 qeustions with answers
+questions = [
+    {"q": "Hva er hovedstaden i Norge?", "a": "Oslo"},
+    {"q": "Hvor mange kontinenter finnes det?", "a": "7"},
+    {"q": "Hva er verdens lengste elv?", "a": "Nilen"},
+    {"q": "Hvilket land har flest innbyggere?", "a": "Kina"},
+    {"q": "Hva er hovedstaden i Sverige?", "a": "Stockholm"},
+    {"q": "Hvilket hav ligger mellom Europa og Afrika?", "a": "Middelhavet"},
+    {"q": "Hva heter Norges høyeste fjell?", "a": "Galdhøpiggen"},
+    {"q": "Hvor mange grader er det i en rett vinkel?", "a": "90"},
+    {"q": "Hva er det kjemiske symbolet for vann?", "a": "H2O"},
+    {"q": "Hva heter planeten nærmest solen?", "a": "Merkur"},
+    {"q": "Hva er hovedstaden i Danmark?", "a": "København"},
+    {"q": "Hvor mange bein har et menneske?", "a": "206"},
+    {"q": "Hva heter verdens største hav?", "a": "Stillehavet"},
+    {"q": "Hva er det største landet i verden?", "a": "Russland"},
+    {"q": "Hva heter Norges nasjonaldag?", "a": "17. mai"},
+    {"q": "Hva er hovedstaden i Finland?", "a": "Helsinki"},
+    {"q": "Hva heter den største planeten i solsystemet?", "a": "Jupiter"},
+    {"q": "Hva er det kjemiske symbolet for gull?", "a": "Au"},
+    {"q": "Hvor mange spillere er det på banen i fotball per lag?", "a": "11"},
+    {"q": "Hva heter verdens høyeste fjell?", "a": "Mount Everest"},
+    {"q": "Hva er hovedstaden i Frankrike?", "a": "Paris"},
+    {"q": "Hvilket språk snakkes mest i verden?", "a": "Mandarin"},
+    {"q": "Hva heter den største innsjøen i Norge?", "a": "Mjøsa"},
+    {"q": "Hva er hovedstaden i Italia?", "a": "Roma"},
+    {"q": "Hva heter den raskeste landdyret?", "a": "Gepard"},
+    {"q": "Hvor mange dager er det i et år?", "a": "365"},
+    {"q": "Hva heter verdens største ørken?", "a": "Sahara"},
+    {"q": "Hva er hovedstaden i Tyskland?", "a": "Berlin"},
+    {"q": "Hva heter den største verdensdelen?", "a": "Asia"},
+    {"q": "Hva er det kjemiske symbolet for oksygen?", "a": "O"},
+    {"q": "Hva heter den største øya i verden?", "a": "Grønland"},
+    {"q": "Hva er hovedstaden i Storbritannia?", "a": "London"},
+    {"q": "Hvor mange planeter er det i solsystemet?", "a": "8"},
+    {"q": "Hva heter den største fuglen i verden?", "a": "Struts"},
+    {"q": "Hva er hovedstaden i Spania?", "a": "Madrid"},
+    {"q": "Hva heter den kaldeste planeten i solsystemet?", "a": "Uranus"},
+    {"q": "Hva er det kjemiske symbolet for karbon?", "a": "C"},
+    {"q": "Hva heter verdens mest kjente klokketårn i London?", "a": "Big Ben"},
+    {"q": "Hva er hovedstaden i Nederland?", "a": "Amsterdam"},
+    {"q": "Hva heter verdens største korallrev?", "a": "Great Barrier Reef"},
+    {"q": "Hva er hovedstaden i USA?", "a": "Washington D.C."},
+    {"q": "Hva heter den største verdenshavet?", "a": "Stillehavet"},
+    {"q": "Hva heter den største katten i verden?", "a": "Tiger"},
+    {"q": "Hva er hovedstaden i Japan?", "a": "Tokyo"},
+    {"q": "Hva heter den største byen i Norge?", "a": "Oslo"},
+    {"q": "Hva heter den største verdensreligionen?", "a": "Kristendom"},
+    {"q": "Hva er hovedstaden i Kina?", "a": "Beijing"},
+    {"q": "Hva heter den største innsjøen i verden?", "a": "Kaspihavet"},
+    {"q": "Hva er hovedstaden i Russland?", "a": "Moskva"},
+    {"q": "Hva heter verdens mest solgte bok?", "a": "Bibelen"},
+]
+
+random.shuffle(questions)
+
+score = 0
+
+for item in questions:
+    answer = input(item["q"] + " ").strip()
+    if answer.lower() == item["a"].lower():
+        print("Riktig!")
+        score += 1 
+    else:
+        print(f"Feil. Riktig svar er: {item['a']}")
+
+
+print(f"\nDu fikk {score} av {len(questions)} spørsmål riktig.")   

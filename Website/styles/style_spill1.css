@@ -14,6 +14,7 @@ h1 {
   padding: 10px;
   margin: 10px;
   color: #e36888;
+  font-size: 20px;
 }
 
 .home-btn {
@@ -21,10 +22,28 @@ h1 {
   top: 15px;
   left: 15px;
   z-index: 1000;
-  color: white;
+  color: rgb(230, 227, 227);
   text-decoration: none;
   background: #f08c21;
   padding: 8px 10px;
   border-radius: 4px;
   font-weight: bold;
+}
+
+.question-box {
+  background: #e36888;
+  color: rgb(230, 227, 227);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.question-box.strike {
+  text-decoration: line-through;
+  opacity: 0.6;
 }
